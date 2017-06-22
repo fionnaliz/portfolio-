@@ -1,10 +1,6 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-<title>Elizabeth's Page</title>
-</head>
-<body style=background-color:#FFFEA0>
+
+
 
 <h1 style=color:ffe6e6; font-family: Aliens & cows Regular; style=font-size:36px;> About Me and What I Do.</h1>
  
@@ -12,7 +8,69 @@
  
  
  style="width:304px";"height:228px;text-align:center">
- <p background-color= "#FFFEA0"> I am proud to be a CHICANA! 
+
+ <!DOCTYPE html>
+<html>
+<head>
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+<body style=background-color:#FFFEA0>
+header {background: #aaa;color:#FFE3E8;}
+footer {background: #E3EEFF;color:#FFFEA0;}
+.nav {background: D48DFC;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+  <h1>About Me and What I do</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li><a href="#">Elizabeth Franco</a></li>
+ 
+</ul>
+</nav>
+
+ <h1 style=color:ffe6e6</h1>
+ 
+<article class="article">
+  <h1>About Me</h1>
+<p background-color= "#FFFEA0"> I am proud to be a CHICANA! 
+  I am proud to be a CHICANA! 
   
   I have 3 sisters and have 11 pets. They are 3 dogs, 5 cats and 3 geckos. 
   
@@ -30,12 +88,12 @@
   
   I'm also doing a summer internship in San Francisco called Girls Who Code. 
   
-  In this internship we created our own videogames with the use of coding.</p>
+  In this internship we created our own videogames with the use of coding.
+</p>
+ <article class="article">
+ <h2>What I Like To Do</h2> 
+  <p2>Some of the things that im passionate to do is build, repaere, code and attend STEM programs. </p>
 
- 
- <h2> Pictures On What I Like To Do</h2>
-
- <h3>Background Information On Why I do What I Do</h3>
 
 </body>
 </html>
