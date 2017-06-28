@@ -39,8 +39,45 @@ article {
 }
 body {
     background-image: url("https://68.media.tumblr.com/fc4b9c401ec33f40c200189ee476e9fa/tumblr_oml2acAQUw1w4af6ko1_500.gif")}
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
 </style>
 </head>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#about me">About Me</a></li>
+  <li><a href="#what i like to do">What I like to do</a></li>
+  <li><a href="#contact">contact</a></li>
+</ul>
 <body style="background-color:pastel gray;">
 
 
